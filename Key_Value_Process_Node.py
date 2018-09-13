@@ -24,16 +24,6 @@ d['data'] = {}
 port1 = sys.argv[1]
 
 
-def print_func(p1):
-    print("Process {} got message {}".format(os.getpid(), p1))
-
-
-@app.route('/clear', methods=['GET'])
-def clear():
-        d['data'] = {}
-        return jsonify(d)
-
-
 @app.route('/get', methods=['GET'])
 def get():
     return jsonify(d)
