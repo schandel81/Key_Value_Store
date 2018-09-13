@@ -58,6 +58,8 @@ sudo chmod 777 kvstore_start_script
 
 10. The set call with same key will overwrite the data.
 
+11. Run "pkill python" on cmd before restarting.
+
 
 TODO:
 
