@@ -75,6 +75,8 @@ Read repair mechanism.
 
 Partitioning using hashing.
 
+Use Dill instead of cPickle for serialization/deserialization.
+
 
 
 
