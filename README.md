@@ -67,7 +67,7 @@ Use pathos thread pool to make replication parallel, which will improve performa
 
 Handle replication in /clear app path.
 
-Implement consistency levels for kv store.
+Implement consistency levels(QUORUM, ALL) for kv store.
 
 Read repair mechanism.
 
