@@ -59,5 +59,21 @@ sudo chmod 777 kvstore_start_script
 10. The set call with same key will overwrite the data.
 
 
+TODO:
+
+Add Docker File for Ubuntu 14.04.
+
+Use pathos thread pool to make replication parallel, which will improve performance.
+
+Handle replication in /clear app path.
+
+Implement consistency levels for kv store.
+
+Read repair mechanism.
+
+Partitioning using hashing.
+
+
+
 
 
