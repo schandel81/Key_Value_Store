@@ -44,7 +44,7 @@ sudo chmod 777 kvstore_start_script
 
 7. Supported app routes:
   
-    a. Set key Value: http://localhost:5000/set/Sandeep?value=Chandel
+    a. Set key Value: http://localhost:5000/setkey/Sandeep?value=Chandel
   
     b. Get key Value: http://localhost:4000/get/Sandeep
   
