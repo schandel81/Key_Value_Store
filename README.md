@@ -12,7 +12,7 @@ On Linux:
 
 sudo apt-get update
 
-sudo apt-get upgrade -y
+sudo apt-get upgrade
 
 sudo apt-get install flask python virtualenv requests
 
@@ -67,7 +67,7 @@ Add Docker File for Ubuntu 14.04.
 
 Use pathos thread pool to make replication parallel, which will improve performance.
 
-Handle replication in /clear app path.
+Handle replication in localhost:5000/clear app path.
 
 Implement consistency levels(QUORUM, ALL) for kv store.
 
