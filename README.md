@@ -69,7 +69,7 @@ Use pathos thread pool to make replication parallel, which will improve performa
 
 Handle replication in localhost:5000/clear app path.
 
-Implement consistency levels(QUORUM, ALL) for kv store.
+Implement consistency levels(QUORUM, ALL) for kv store. Impelmenting serializable consistency using Redlock as a locking servcie.
 
 Read repair mechanism.
 
